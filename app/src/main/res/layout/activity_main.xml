@@ -30,7 +30,7 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:textSize="24sp"
-        android:textAlignment="center"
-        android:gravity="center"/>
+        android:gravity="center"
+        />
 
 </RelativeLayout>
