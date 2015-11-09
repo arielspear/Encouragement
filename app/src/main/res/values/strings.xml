@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Encouragement</string>
-
+    <string name="encouragement">Encouragement</string>
+    <string name="encourage_button">Encourage Me</string>
+    <string name="quote">Treat yourself with love, care, give yourself compliments, motivate yourself, listen to your gut, sleep when you're tired.</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>
