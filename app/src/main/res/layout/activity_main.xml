@@ -7,7 +7,7 @@
 
     <TextView android:text="@string/encouragement" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/"
+        android:id="@+id/title"
         android:textSize="24sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/encourage_button"
-        android:id="@+id/button"
+        android:id="@+id/NewQuoteButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
