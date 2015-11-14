@@ -16,13 +16,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Declare View variables and assign Views from layout files
-        TextView quoteLabel = (TextView) findViewById(R.id.quoteTextView);
+        final TextView quoteLabel = (TextView) findViewById(R.id.quoteTextView);
         Button showQuoteButton = (Button) findViewById(R.id.showQuoteButton);
 
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                String quote = "You are not a burden.";
+                quoteLabel.setText(quote);
             }
         };
 
