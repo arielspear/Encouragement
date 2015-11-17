@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String[] quotes = {
                         "You are not a burden.",
-                        "You/'re cared about, sometimes people are really tired and don/'t act the same" +
+                        "You're cared about, sometimes people are really tired and don't act the same" +
                                 " sometimes but they still love & care for you just the same",
                         "Treat yourself with love, care, give yourself compliments, motivate yourself," +
                                 " listen to your gut, sleep when you're tired.",
@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
 
                 };
                 //randomly select quote
-                Random randomGenerator = new Random(quotes.length);
-                int randomNumber = randomGenerator.nextInt();
+                Random randomGenerator = new Random();
+                int randomNumber = randomGenerator.nextInt(quotes.length);
                 String quote = quotes[randomNumber];
 
 
