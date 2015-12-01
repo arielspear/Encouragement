@@ -2,15 +2,13 @@ package com.arielspear.encouragement;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import java.util.Random;
-
 public class MainActivity extends AppCompatActivity {
+
+    private QuoteBook mQuoteBook = new QuoteBook();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,13 +22,13 @@ public class MainActivity extends AppCompatActivity {
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                String quote = mQuoteBook.getCompliment();
                 //update label with dynamically selected quote
-                quoteLabel.setText("");
+                quoteLabel.setText(quote);
             }
         };
 
         showQuoteButton.setOnClickListener(listener);
     }
-    
+
 }
