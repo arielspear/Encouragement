@@ -4,7 +4,7 @@ Encouragement is an Android app designed to give people small kindnesses each da
 
 ## Installation
 
-There is currently no Installation. Encouragement may be put onto the Google Play Store in the future.
+Encouragement can be installed from the Google Play Store [here](https://play.google.com/store/apps/details?id=com.arielspear.encouragement&hl=en). 
 
 ## Usage
 
