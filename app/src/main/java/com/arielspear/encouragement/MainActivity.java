@@ -1,10 +1,14 @@
 package com.arielspear.encouragement;
 
+import android.app.Notification;
+import android.app.NotificationManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+// android.support.v4.app.NotificationCompat.Builder;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +29,15 @@ public class MainActivity extends AppCompatActivity {
                 String quote = mQuoteBook.getCompliment();
                 //update label with dynamically selected quote
                 quoteLabel.setText(quote);
+
+                Notification note = new Notification.Builder(getApplicationContext())
+                        .setContentTitle("ENCOURAGEMENT")
+                        .setContentText(quote)
+                        .setSmallIcon(R.mipmap.ic_launcher)
+                        .build();
+
+                NotificationManager NM = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+                NM.notify(0, note);
             }
         };
 
