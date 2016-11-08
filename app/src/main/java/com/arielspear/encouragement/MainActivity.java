@@ -23,12 +23,12 @@ public class MainActivity extends AppCompatActivity {
         final TextView quoteLabel = (TextView) findViewById(R.id.quoteTextView);
         Button showQuoteButton = (Button) findViewById(R.id.showQuoteButton);
 
+        getCompliment(quoteLabel);
+
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String quote = mQuoteBook.getCompliment();
-                //update label with dynamically selected quote
-                quoteLabel.setText(quote);
+                String quote = getCompliment(quoteLabel);
 
                 Notification note = new Notification.Builder(getApplicationContext())
                         .setContentTitle("ENCOURAGEMENT")
@@ -42,6 +42,13 @@ public class MainActivity extends AppCompatActivity {
         };
 
         showQuoteButton.setOnClickListener(listener);
+    }
+
+    private String getCompliment(TextView quoteLabel) {
+        String quote = mQuoteBook.getCompliment();
+        //update label with dynamically selected quote
+        quoteLabel.setText(quote);
+        return quote;
     }
 
 }

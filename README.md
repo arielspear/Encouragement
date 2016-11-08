@@ -1,14 +1,14 @@
 # Project Name
 
-Encouragement is an Android app designed to give people small kindnesses each day, encouraging them not to give up and to keep trying.
+Encouragement is an Android app designed to give people compliments and affirmations. It's supposed to provide people with a small positive message.
 
 ## Installation
 
-Encouragement can be installed from the Google Play Store [here](https://play.google.com/store/apps/details?id=com.arielspear.encouragement&hl=en). 
+Encouragement can be installed from the Google Play Store [here](https://play.google.com/store/apps/details?id=com.arielspear.encouragement&hl=en).
 
 ## Usage
 
-There is currently no usage. Encouragement may be put onto the Google Play Store in the future.
+Encouragement is used by opening the application and pressing the button at the bottom. Hopefully in the future users will be able to add or remove compliments themselves.
 
 ## Contributing
 
@@ -25,7 +25,7 @@ Special thanks to the Twitter Account [POSITIVE SAILOR MOON](https://twitter.com
 ## License
 Standard MIT License
 
-Copyright (c) 2015 Ariel Spear
+Copyright (c) 2015 - Present, Ariel Spear
 
 
 
